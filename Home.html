@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="links">
+                <p id="head">WildLife</p>
+                <ul id="nav-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Topics</a></li>
+                    <li><a href="">Know Animals</a></li>
+                </ul>
+            </div>
+            <div id="search-main">
+                <div id="search-img">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input type="search" name="" autocomplete="off" id="search">
+                <ul id="search-suggestions"></ul>
+            </div>
+
+            <div id="sign-in-up">
+                <p id="signin">Sign In</p>
+                <p id="signup">Sign Up</p>
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <div id="wrapper">
+        <section id="intro">
+            <div id="content">
+                <h1 id="animalName"></h1>
+                <p id="animalSummary"></p>
+            </div>
+
+        </section>
+    </div>
+
+
+
+
+
+    <footer id="foot">
+        <div class="signup-form">
+            <h2>Get In Touch </h2>
+            <form id="signupForm">
+                <input type="text" id="username" name="username" required minlength="3"
+                    placeholder="Enter your username">
+
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+
+
+                <textarea name="message" id="message" placeholder="write here......"></textarea>
+
+                <button type="submit">Send It Now</button>
+            </form>
+        </div>
+        <div id="last-foot">
+            <div id="make">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error repellat facilis iste
+                    praesentium ea, </p>
+                    <h5><a href="">minhaj@gmail.com</a></h5>
+            </div>
+            <div id="meet">
+                <h3>Meet Maker</h3>
+                <ul>
+                    <li>Minhaj Ak</li>
+                </ul>
+            </div>
+            <div id="media">
+                <h3>Follow Me</h3>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+
+            </div>
+
+        </div>
+    </footer>
+    <div id="loginPopup" class="popup">
+        <div class="popup-content" >
+
+            <span class="close-btn" id="closePopup">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <input type="text" id="signinUsername" name="username"  placeholder="Username"><br>
+                <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+                <button type="submit">Submit</button>
+
+                <div class="forgetorsignup">
+                    <p><a href="./forgetPassword.html">Forget Password ?</a></p>
+                    <p>Sign Up</p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

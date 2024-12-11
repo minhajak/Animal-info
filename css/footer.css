@@ -1,0 +1,213 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}#foot {
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    opacity: 90%;
+    transition: background-image 1s;
+    animation: bgintro  5s forwards;
+}
+@keyframes bgintro {
+    0%{
+      background-image: url('../images/leaves.jpg');
+      transition: background-image 1s;
+    }
+    50%{
+        background-image: url("../images/tree.jpg");
+        transition: background-image 1s;
+    }
+    80%{
+        background-image: url("../images/tree.jpg");
+        transition: background-image 1s;
+    }
+    100%{
+        background-image: url('../images/leaves.jpg');
+        transition: background-image 1s;
+      }
+
+  }
+
+.signup-form {
+    padding: 20px;
+    height: 400px;
+    color: hsla(0, 100%, 100%, 0.722);
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    align-self: center;
+    margin-left: 250px;
+    align-items: center;
+}
+
+.signup-form>h2 {
+    margin-top: 160px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+#username {
+    width: 49%;
+    border: none;
+    height: 40px;
+    color: hsla(0, 100%, 100%, 0.722);
+    padding-left: 20px;
+    background-color: hsla(10, 100%, 100%, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+
+}
+
+#email {
+    margin-left: 10px;
+    width: 49%;
+    height: 40px;
+    padding-left: 20px;
+        color: hsla(0, 100%, 100%, 0.722);
+    border: none;
+    background-color: hsla(10, 100%, 100%, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    
+}
+
+#message {
+    /* margin-top: 30px; */
+    border: none;
+    width: 100%;
+    text-decoration: none;
+    background-color: hsla(10, 100%, 100%, 0.12);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    color: hsla(0, 100%, 100%, 0.722);
+    border-radius: 5px;
+    caret-color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#username::placeholder,
+#email::placeholder,
+#message::placeholder {
+    color: hsla(0, 100%, 100%, 0.722);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#message:focus, #username:focus, #email:focus{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: hsla(0, 100%, 100%, 0.722);
+    caret-color: hsla(0, 100%, 100%, 0.722);
+}
+
+.signup-form>#signupForm>button {
+    margin-top: 2%;
+    margin-left: -0.1%;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsla(0, 88%, 63%, 0.529);
+    color: aliceblue;
+}
+
+.signup-form>#signupForm>button:hover {
+    background-color: hsla(0, 88%, 63%, 0.229);
+    color: aliceblue;
+    font-size: medium;
+    transition: background-color 1s;
+    transition: font-size 0.5s;
+}#last-foot {
+    margin-top: 240px;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(10, 10, 10, 0.88); /* More specific color with rgba */
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+#make{
+    width: 30%;
+    /* border: 2px solid white; */
+    align-items: center;
+
+}
+#make>h2{
+    color: hsla(0, 100%, 100%, 0.722);
+    padding-bottom: 20px;
+    font-size: medium;
+
+}
+#make>p{
+    color: hsla(0, 100%, 100%, 0.722);
+    font-size: small;
+
+}
+#make>h5{
+    padding-top: 190px;
+    color: hsla(0, 100%, 100%, 0.722);
+}
+#make>h5>a{
+    padding-top: 80px;
+    color: hsla(0, 100%, 100%, 0.722);
+    font-size: small;
+}
+#meet{
+    width: 30%;
+    /* border: 2px solid white; */
+    height: 100px;
+    align-items: center;
+}
+#meet>h3{
+    color: hsla(0, 100%, 100%, 0.722);
+    padding-bottom: 20px;
+    font-size: medium;
+}
+#meet>ul{
+    color: hsla(0, 100%, 100%, 0.722);
+    font-size: small;
+
+}
+#meet>ul>li{
+    color: hsla(0, 100%, 100%, 0.722);
+    font-size: small;
+
+}
+#media{
+    display: inline;
+    width: 30%;
+    /* border: 2px solid white; */
+    height: 100px;
+}
+#media>h3{
+    color: hsla(0, 100%, 100%, 0.722);
+    padding-bottom: 20px;
+    font-size: medium;
+
+}
+
+
+#media > a{
+
+    padding: 20px;
+    padding-left: 10px;
+    font-size: large;
+    /* padding-left: 1000px; */
+    color: hsla(0, 100%, 100%, 0.722); /* Hex color instead of named color */
+    /* border: 2px solid white; */
+}
+#media >  a  >  i {
+    color: hsla(0, 100%, 100%, 0.722); 
+}
+#media >  a  >  i:hover {
+    color: hsla(0, 100%, 100%, 0.922); 
+}
